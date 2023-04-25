@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 02</title>
+    <style>
+        
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: bisque;
+        }
+
+        div{
+            background-color: aqua;
+            display: inline-block;
+            width: 150px;
+            height: 200px;
+        }
+        
+        a{
+            font-weight: bold;
+            text-decoration: none;
+            color: red;
+        }
+
+        div > p{
+            display: none;
+        }
+        #d1:hover > p{
+            
+            display: block;
+        }
+        .d2:hover > p{
+            
+            display: block;
+        }
+
+        #d3{
+            color: aliceblue;
+        }
+        #d3:visited{
+            color: bisque;
+
+        }
+
+       
+
+    </style>
+</head>
+<body>
+    
+    <h1>Exemplo de Pseudo-class</h1>
+ <div id="d1">Partida 01 
+    <p><a href="https://media.tenor.com/VOdWjm2zbEAAAAAC/gandalf-sax-guy.gif" target="_blank">Clique aqui!! </a></p>
+ </div>
+ <div class="d2">Partida 02
+    <p><img src="https://multiurso.com.br/wp-content/uploads/2022/08/diferenca-pato-marreco-foto-1132x670.jpg" alt="Pato" width="100%" height="100%"></p>
+ </div>
+ <div class="d2">Partida 03
+   
+    <p><img src="https://multiurso.com.br/wp-content/uploads/2022/08/diferenca-pato-marreco-foto-1132x670.jpg" alt="Pato" width="100%" height="100%"></p>
+
+ </div>
+
+     <p>
+        <a id="d3" href="https://www.google.com/search?q=curso+html&sxsrf=APwXEddgrDxjrhdxGD1fe242ecNClvhJeg:1680707160396&source=lnms&tbm=vid&sa=X&ved=2ahUKEwjS9pCKgpP-AhXMDbkGHYrECp0Q_AUoAXoECAEQAw&biw=514&bih=615&dpr=1#fpstate=ive&vld=cid:f72e6c54,vid:nPEpaft1y1k"> Quer aprender HTML, Acesse aqui...</a>
+     </p>
+
+</body>
+</html>

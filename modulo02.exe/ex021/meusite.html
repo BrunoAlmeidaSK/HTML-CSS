@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site</title>
+    <style>
+        body{
+            background-color: rgb(100, 97, 97);
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+        header{
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 220px 30px 40px;
+        }
+        nav{
+            background-color: rgb(169, 169, 169);
+            padding: 3px;
+            box-shadow: 4px 2px 1px 0px rgba(0, 0, 0, 0.226);
+
+        }
+
+        nav > a{
+            
+            text-decoration: none;
+            padding: 3px;
+            font-weight: bold;
+            
+        }
+    
+        nav > a:hover{
+            text-decoration: underline;
+            display: block;
+
+        }
+
+
+        article > aside{
+            background-color: rgb(104, 103, 103);
+            text-align: center;
+            padding: 5px;
+            margin: 5px;
+            border-radius: 10px 30px;
+        }
+        main{
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+        }
+        article{
+            background-color: rgb(173, 171, 171);
+            padding: 5px;
+            margin: 10px;
+            border-radius: 10px 30px 30px;
+            box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.623);
+        }
+        footer{
+            background-color: black;
+            color: aliceblue;
+            text-align: center;
+            padding: 5px;
+        }
+        footer > p {
+            margin: 0;
+        }
+        h1{
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+                    <a href="#">Menu</a>
+                    <a href="#">Noticias</a>
+                    <a href="#">Forum</a>
+                    <a href="#">Sobre</a>    
+        </nav>
+    </header>
+    <main>
+        <section id="noticias">
+            <article>
+                <h2>Título</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit impedit obcaecati a cumque iusto, officiis sint pariatur quo incidunt, perspiciatis veniam vitae animi officia minus eos facilis ipsam eius quos. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat officiis odit expedita sint. Quis suscipit labore atque! Debitis tempore ut eius veniam sint aspernatur explicabo, qui numquam quaerat, repellat eos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci atque nisi officiis quos omnis tempore laboriosam eligendi sint explicabo laudantium debitis, incidunt corrupti beatae doloremque exercitationem suscipit odit expedita blanditiis.</p>
+            </article>
+            <article>
+                <h2>Titulo2</h2>
+                <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et voluptate possimus natus architecto optio rerum inventore fuga quos sunt rem, quisquam qui eveniet reiciendis, unde velit tempora nihil iusto a. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, ipsum! Eveniet quibusdam cupiditate porro eos hic asperiores consectetur accusamus dicta atque, illo quasi, ipsum, eius sint ab ea dolorem labore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit suscipit dolorum velit minus enim obcaecati modi voluptatum, iusto non quam eaque laudantium accusamus neque eligendi veritatis placeat nostrum qui fuga.</p>
+                <aside id="conteudo">
+                    Conteudo periferico do artigo
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer >
+         Conteudo do rodapé &copy;
+    </footer>
+</body>
+</html>

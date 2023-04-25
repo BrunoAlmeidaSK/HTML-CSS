@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+/*
+    tudo em HTML é id = em CSS é #
+    tudo em HTML é class = em CSS É .
+
+
+*/
+
+body{
+    background-color: bisque;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+h1{
+    color: rgb(95, 62, 11);
+    
+  
+}
+
+h1#principal{
+    background-color: rgba(214, 130, 27, 0.212);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Arial Narrow', Arial, sans-serif
+    
+}
+
+h2{
+    color: rgb(141, 92, 19);
+}
+
+h2.topico{
+    text-indent: 1.5%;
+}
+
+.texto{
+    font-family: sans-serif;
+    font-size: 17px;
+    text-align: justify;
+    text-indent: 5%;
+   
+    
+}
