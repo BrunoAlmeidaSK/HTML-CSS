@@ -4,21 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body{
-            height: 100vh; /*tamanho total da viewport*/
-            background-color: black;
+            height: 100vh; /*tamanho total da viewport
+            /*background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: top center;
             background-repeat: no-repeat;
-            /*background-size: 100% 100%; /*modo gambiarra*/
+            /*background-size: 100% 100%; /*modo gambiarra
             background-size: cover ;
+            background-attachment: fixed;*/
+
+            /* Shorthand - background */
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover;
+
+            
+            
 
         }
         main{
-            background-color: aliceblue;
-            width: 400px;
+            background-color: white;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
