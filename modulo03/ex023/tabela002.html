@@ -18,6 +18,12 @@
             border-collapse: collapse;
             text-align: center;
         }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
 
         thead , tfoot{
             background-color: gray;
@@ -40,18 +46,20 @@
     <h1>Uso de Tabelas Grandes</h1>
     <!-- 
             ANATOMIA PARA TABELAS GRANDES
+            CAPTION  = LEGENDA DO CONTEUDO
             TABLE
                 THEAD
                 TBODY
                 TFOOT
      -->
      <table>
+         <caption>Tabela da população por estado</caption>
         <thead>
             <tr>
-                <th>Posição</td>
-                <th>Unidade federativa</td>
-                <th>População</td>
-                <th>% da pop. total</td>
+                <th scope="col">Posição</td>
+                <th scope="col">Unidade federativa</td>
+                <th scope="col" style="width: 50px;">População</td>
+                <th scope="col" style="width: 50px;">% da pop. total</td>
             </tr>
         </thead>
         <tbody>
@@ -223,7 +231,7 @@
             <tr >
                 
                 <td></td>
-                <th>Totalização</th>
+                <th scope="row ">Totalização</th>
                 <td><strong>214,3 milhões</strong></td>
                 <td></td>
             </tr>
