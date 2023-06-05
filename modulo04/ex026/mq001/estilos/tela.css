@@ -15,7 +15,8 @@ html{
 }
 
 header{
-    background: rgb(149, 209, 230);
+    background: rgb(149, 217, 241);
+    width: 100%;
 }
 
 header > h1{
@@ -23,16 +24,19 @@ header > h1{
     padding:10px ;
 }
 
+article > h2{
+    text-align: center;
+}
+
 menu ul{
     list-style-type: none;
     text-align: center;
     padding: 10px ;
-    background: lightblue;
+    background: rgba(173, 216, 230, 0.452);
 }
 
 menu li{
     display: inline-block;
-    background: lightblue;
     padding: 5px;
 }
 
@@ -42,8 +46,8 @@ menu li > a{
 
 menu li > a:hover{
     text-decoration: underline;
-    background: aqua;
-    color: rgb(4, 202, 202);
+    background: rgba(98, 212, 212, 0.836);
+    color: rgba(5, 145, 145, 0.767);
 }
 
 article{
