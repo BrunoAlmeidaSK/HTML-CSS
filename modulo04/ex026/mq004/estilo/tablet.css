@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+/* CONFI GERAL */
+
+
+body{
+    background-image: url(../imagens/back-tablet.jpg);
+}
+
+img#phone{display: none;}
+img#tablet{display: block;}
+img#pc{display: none;}
+img#tv{display: none;}
+img#print{display: none;}
